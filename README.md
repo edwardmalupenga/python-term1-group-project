@@ -9,14 +9,18 @@
 
 
 ## Description
-This program is a menu-driven Python application that performs:
-- Number analysis
+This program provides a simple Word Counter utility with a small GUI.
 
 ## How to Run
 1. Install Python
 2. Open terminal
 3. Run:
-   python main.py
+   python Word_counter_gui.py
+
+GUI:
+
+- Launch the graphical interface with `python Word_counter_gui.py`.
+- Click "Open Word Counter" to use the word counter tool.
 
 ## Features
 - Input validation
