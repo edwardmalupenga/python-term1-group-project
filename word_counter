@@ -1,0 +1,32 @@
+def word_counter():
+    """Counts words, characters (no spaces), and longest word"""
+
+    # Ask user for input
+    sentence = input("Enter a sentence: ").strip()
+
+    # Validate input
+    if sentence == "":
+        print("You entered nothing.")
+        return
+
+    # Split sentence into words
+    words = sentence.split()
+
+    # Count words
+    word_count = len(words)
+
+    # Count characters excluding spaces
+    char_count = len(sentence.replace(" ", ""))
+
+    # Find longest word
+    longest_word = max(words, key=len)
+
+    # Display results
+    print("\nResults:")
+    print("Number of words:", word_count)
+    print("Characters (no spaces):", char_count)
+    print("Longest word:", longest_word)
+
+
+# Run function
+word_counter()
